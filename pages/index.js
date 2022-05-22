@@ -41,8 +41,8 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    // incremental static generation
-    // revalidate: 1,
+    //incremental static generation
+    revalidate: 1,
   };
 }
 
