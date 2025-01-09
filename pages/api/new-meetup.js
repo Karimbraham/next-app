@@ -1,7 +1,6 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-const uri =
-  "mongodb+srv://Admin:Azertier1@devcluster.lwvq1xo.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 
 const Handler = async (req, res) => {
   if (req.method === "POST") {
